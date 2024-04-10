@@ -1,0 +1,305 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./sec.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+   
+}
+
+.main{
+    width: 90%;
+    height: 99.6vh;
+    background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mdi--beach {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M15 18.54c2.13-.33 4.5-.54 7-.54v4H5c0-.65 3.2-2.14 8-3.1v-6.5c-.84.25-1.55.81-2 1.55a3.495 3.495 0 0 0-6 0c.03-3.58 3.5-6.52 8-6.91V7a1 1 0 0 1 1-1a1 1 0 0 1 1 1v.04c4.5.39 7.96 3.33 8 6.91a3.495 3.495 0 0 0-6 0c-.45-.74-1.16-1.3-2-1.56zM7 2a5 5 0 0 1-5 5V2z'/%3E%3C/svg%3E");
+  }
+
+nav{
+    width: 98%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > ul > li{
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.hotelname{
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    line-height: 0.3;
+}
+
+.hotelname > h1{
+    font-size: 50px;
+    color: rgb(225, 225, 225);
+    font-weight: 600;
+}
+
+.hotelname > h1:hover{
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+
+i{
+    color: white;
+    font-size: 40px;
+}
+
+.hotelname > a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    margin-left: 200px;
+} 
+
+.mainPic{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+}
+
+.touch{
+    margin-top:140px ;
+    margin-left: -500px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#name{
+    width: 300px;
+    height: 20px;
+    box-shadow: 5px 5px 5px rgb(34, 222, 255);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: transparent;
+    margin-left: -500px;
+}
+#surname{
+    width: 300px;
+    height: 20px;
+    box-shadow: 5px 5px 5px rgb(0, 183, 255);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: transparent;
+    margin-left: -500px;
+
+}
+#date{
+    width: 300px;
+    height: 20px;
+    box-shadow: 5px 5px 5px rgb(0, 183, 255);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: transparent;
+    margin-left: -500px;
+
+}
+#email{
+
+    width: 300px;
+    height: 20px;
+    box-shadow: 5px 5px 5px rgb(0, 183, 255);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: transparent;
+    margin-left: -500px;
+}
+#message{
+    width: 300px;
+    height: 70px;
+    box-shadow: 5px 5px 5px rgb(0, 183, 255);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: transparent;
+    margin-left: -500px;
+
+}
+#btn{
+    width: 100px;
+    height: 30px;
+    box-shadow: 5px 5px 5px rgb(0, 183, 255);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: rgb(21, 64, 255);
+    margin-left: -400px;
+    margin-top: 15px;
+
+
+}
+
+.smallbox{
+    width: 400px;
+    height: 200px;
+    background-color: rgba(0, 91, 228, 0.171);
+    margin-left: -440px;
+    position: relative;
+    left: 600px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 10px 10px 10px rgb(0, 183, 255);
+    animation: ring 2s linear infinite;
+
+  
+}
+@keyframes ring{
+
+    0%{
+        transform: rotate(0deg);
+        box-shadow: 2px 5px 2px rgb(239, 244, 250);
+    }
+ 
+  
+
+}
+.contact{
+    color: white;
+    position: relative;
+    left: 100px;
+    top: -20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.road{
+ color: white;
+    font-size: 16px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 50px;
+    top: -140px;
+}
+.mail{
+ color: white;
+    font-size: 16px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 50px;
+     top: -140px;
+}
+.num{
+ color: white;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 50px;
+     top: -130px;
+}
+
+.s1{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+}
+.s2{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    left: 15px;
+    bottom: 15px;
+}
+.s3{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    left: 15px;
+    bottom: -8px;
+}
+
+.at{
+    position: relative;
+    left: 3px;
+  
+}
+.location{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+ .phone{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    left: 3px;
+ }
+.insta{
+    width: 25px;
+    height: 25px;
+    margin-top: 300px;
+    position: relative;
+    top: 60px;
+    left: 100px;
+    border-radius: 55%;
+}
+.facebook{
+    width: 25px;
+    height: 25px;
+   position: relative;
+    top: 100px;
+    left: 70px;
+    border-radius: 55%;
+    
+}
+.pine{
+    width: 25px;
+    height: 25px;
+    border-radius: 65%;
+    position: relative;
+    top: 140px;
+    left: 40px;
+}
+.shangri{
+    margin-left: 180px;
+    margin-top: 40px;
+    color: rgb(0, 38, 163);
+    font-family: sans-serif;
+}
